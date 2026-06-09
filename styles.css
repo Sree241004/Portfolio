@@ -1345,6 +1345,213 @@ button, input, textarea {
     color: var(--text-muted);
 }
 
+/* ==================== HERO HIGHLIGHTS ==================== */
+.hero-highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    max-width: 520px;
+}
+
+.hero-highlight-item {
+    display: flex;
+    align-items: center;
+    column-gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    font-size: 0.9rem;
+    color: var(--text-body);
+    transition: var(--transition-smooth);
+}
+
+.hero-highlight-item i {
+    font-size: 1.15rem;
+    color: var(--primary);
+}
+
+.hero-highlight-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+}
+
+/* ==================== PROJECT ACHIEVEMENT BADGE ==================== */
+.project-achievement-badge {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: rgba(234, 179, 8, 0.08);
+    border: 1px solid rgba(234, 179, 8, 0.2);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: var(--font-semibold);
+    color: #eab308;
+    margin-bottom: 1.25rem;
+}
+
+/* ==================== FEATURED HIGHLIGHTED PUBLICATION ==================== */
+.featured-publication {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, #090d16, #090d16) padding-box,
+                linear-gradient(135deg, var(--primary), var(--secondary)) border-box !important;
+    box-shadow: 0 0 35px rgba(99, 102, 241, 0.25) !important;
+    overflow: hidden;
+    padding: 3rem !important;
+}
+
+.featured-publication .pub-glow-glow {
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    background: radial-gradient(circle at top left, rgba(99, 102, 241, 0.15) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.featured-publication .pub-info {
+    position: relative;
+    z-index: 1;
+}
+
+.pub-badge {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 0.45rem 1rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.badge-ieee {
+    background: rgba(6, 182, 212, 0.15);
+    border: 1px solid rgba(6, 182, 212, 0.3);
+    color: var(--secondary);
+}
+
+.badge-conf {
+    background: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    color: var(--primary);
+}
+
+.badge-presenter {
+    background: rgba(236, 72, 153, 0.15);
+    border: 1px solid rgba(236, 72, 153, 0.3);
+    color: #ec4899;
+}
+
+.pub-abstract-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-body);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.btn-highlight {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: var(--white);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    font-weight: var(--font-bold);
+}
+
+.btn-highlight:hover {
+    box-shadow: 0 0 25px rgba(6, 182, 212, 0.6);
+    filter: brightness(1.2);
+    transform: scale(1.03) translateY(-2px);
+}
+
+/* ==================== LEADERSHIP & ACTIVITIES ==================== */
+.leadership-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.leadership-card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.lead-date {
+    font-size: 0.8rem;
+    font-weight: var(--font-semibold);
+    color: var(--secondary);
+    background: rgba(6, 182, 212, 0.08);
+    border: 1px solid rgba(6, 182, 212, 0.15);
+    padding: 0.3rem 0.75rem;
+    border-radius: 50px;
+}
+
+.lead-card-icon {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.lead-role-title {
+    font-size: 1.35rem;
+    font-weight: var(--font-bold);
+    color: var(--text-title);
+    margin-bottom: 0.5rem;
+}
+
+.lead-org {
+    font-size: 0.95rem;
+    font-weight: var(--font-medium);
+    color: var(--primary);
+    margin-bottom: 1.25rem;
+}
+
+.lead-bullets {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+    font-size: 0.95rem;
+    color: var(--text-body);
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+/* ==================== FOOTER POLISH ==================== */
+.footer-contact-details {
+    margin: 1rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contact-link {
+    color: var(--text-body);
+    font-size: 0.95rem;
+    transition: var(--transition-smooth);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.footer-contact-link:hover {
+    color: var(--primary);
+    text-shadow: 0 0 8px rgba(99, 102, 241, 0.4);
+}
+
 /* ==================== ANIMATIONS & REVEALS ==================== */
 /* Class toggled by JavaScript intersection observer */
 .reveal {
@@ -1417,6 +1624,10 @@ button, input, textarea {
     }
     
     .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .leadership-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -1536,6 +1747,10 @@ button, input, textarea {
     }
     
     .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .leadership-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }

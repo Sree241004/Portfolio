@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css?v=1.4">
+    <link rel="stylesheet" href="styles.css?v=1.5">
 </head>
 <body class="dark-theme">
     
@@ -44,7 +44,8 @@
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li>
                     <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                    <li class="nav-item"><a href="#credentials" class="nav-link">Credentials</a></li>
+                    <li class="nav-item"><a href="#leadership" class="nav-link">Leadership</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
                 <div class="nav-close" id="nav-close">
@@ -76,6 +77,24 @@
                     <p class="hero-description">
                         Passionate final-year student specializing in Data Science and Big Data Analytics. Bridging the gap between hardware engineering and intelligent software systems to build scalable AI models and cloud solutions.
                     </p>
+                    <div class="hero-highlights">
+                        <div class="hero-highlight-item">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>CGPA: 9.15</span>
+                        </div>
+                        <div class="hero-highlight-item">
+                            <i class="fa-solid fa-file-signature"></i>
+                            <span>IEEE Published Author</span>
+                        </div>
+                        <div class="hero-highlight-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>5th Place – Y22 Project</span>
+                        </div>
+                        <div class="hero-highlight-item">
+                            <i class="fa-solid fa-users"></i>
+                            <span>President & Secretary, Convolve</span>
+                        </div>
+                    </div>
                     <div class="hero-buttons">
                         <a href="assets/sudharshini_sree_resume.pdf" download="Sudharshini_Sree_Resume.pdf" class="btn btn-primary" id="hero-download-btn">
                             <i class="fa-solid fa-file-arrow-down"></i> Download Resume
@@ -163,7 +182,7 @@
                                 <h4 class="timeline-title">B.Tech - Electronics & Communication Engineering</h4>
                                 <p class="timeline-subtitle">KL University, Hyderabad</p>
                                 <p class="timeline-detail">Specialization: Data Science & Big Data Analytics</p>
-                                <span class="timeline-badge">CGPA: 9.2/10 (Ongoing)</span>
+                                <span class="timeline-badge">CGPA: 9.15/10 (Ongoing)</span>
                             </div>
                             
                             <div class="timeline-item">
@@ -172,7 +191,7 @@
                                 <h4 class="timeline-title">Intermediate (Class XII) - MPC</h4>
                                 <p class="timeline-subtitle">Sri Chaitanya Junior College, Hyderabad</p>
                                 <p class="timeline-detail">Focus: Mathematics, Physics, Chemistry</p>
-                                <span class="timeline-badge">Score: 98.2%</span>
+                                <span class="timeline-badge">Score: 90.8%</span>
                             </div>
                         </div>
                     </div>
@@ -332,6 +351,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card card" id="project-smart-vision">
+                        <div class="project-img-wrapper">
+                            <div class="project-placeholder-visual project-smart-vis">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">ESP32 / Embedded Systems</span>
+                            <h3 class="project-title">Smart Vision – Assistive Navigation System</h3>
+                            <p class="project-description">
+                                Developed an assistive navigation system using ultrasonic and infrared sensors for real-time obstacle detection and user safety enhancement.
+                            </p>
+                            <div class="project-achievement-badge">
+                                <i class="fa-solid fa-trophy"></i> Secured 5th place among the entire Y22 batch.
+                            </div>
+                            <div class="project-tech-stack">
+                                <span>ESP32</span>
+                                <span>Ultrasonic Sensors</span>
+                                <span>IR Sensors</span>
+                                <span>Embedded Systems</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -343,16 +387,23 @@
                 <span class="section-subtitle">Academic Contributions</span>
 
                 <div class="publications-container grid">
-                    <div class="publication-card card">
+                    <div class="publication-card card featured-publication">
+                        <div class="pub-glow-glow"></div>
                         <div class="pub-info">
                             <div class="pub-header">
-                                <span class="pub-tag"><i class="fa-solid fa-file-signature pub-tag-icon"></i> IEEE Conference Paper</span>
+                                <span class="pub-badge badge-ieee"><i class="fa-solid fa-award"></i> IEEE Publication</span>
+                                <span class="pub-badge badge-conf"><i class="fa-solid fa-landmark"></i> ICE3 2025</span>
+                                <span class="pub-badge badge-presenter"><i class="fa-solid fa-microphone-lines"></i> Conference Presenter</span>
                             </div>
                             
                             <h3 class="pub-title">Signal Integrity Enhancement of MWCNT Interconnects via Machine Learning</h3>
                             
                             <p class="pub-authors">
                                 Vijay Rao Kumbhare, <strong>B. Sudharshini Sree</strong>, M. A. Jahangeer Pasha, N. Apoorva, Bittu Kumar, Ashwini Kumar Varma, Amit Kumar Shrivastava
+                            </p>
+                            
+                            <p class="pub-abstract-text">
+                                Exploring next-generation multi-walled carbon nanotube (MWCNT) interconnect architectures enhanced by machine learning modeling. This research addresses key signal integrity bottlenecks in high-speed VLSI circuits.
                             </p>
                             
                             <div class="pub-metadata">
@@ -368,7 +419,7 @@
                             </div>
 
                             <div class="pub-links">
-                                <a href="https://ieeexplore.ieee.org/document/11448806" target="_blank" rel="noopener" class="btn btn-primary btn-small" id="pub1-link-btn">
+                                <a href="https://ieeexplore.ieee.org/document/11448806" target="_blank" rel="noopener" class="btn btn-primary btn-highlight" id="pub1-link-btn">
                                     View Paper <i class="fa-solid fa-arrow-up-right-from-square btn-icon-right"></i>
                                 </a>
                             </div>
@@ -378,13 +429,13 @@
             </div>
         </section>
 
-        <!-- Experience & Leadership Section -->
+        <!-- Experience Section -->
         <section class="experience section" id="experience">
             <div class="container">
-                <h2 class="section-title">Experience & Leadership</h2>
-                <span class="section-subtitle">Work & Community Impact</span>
+                <h2 class="section-title">Experience</h2>
+                <span class="section-subtitle">Professional Internships</span>
 
-                <div class="experience-container grid">
+                <div class="experience-single-container">
                     <!-- Work Experience -->
                     <div class="experience-block">
                         <h3 class="exp-group-title"><i class="fa-solid fa-briefcase"></i> Internships</h3>
@@ -405,48 +456,62 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- Leadership -->
-                    <div class="experience-block">
-                        <h3 class="exp-group-title"><i class="fa-solid fa-users"></i> Leadership at Team Convolve</h3>
-                        <div class="timeline timeline-vertical">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">2025 - Present</div>
-                                <h4 class="timeline-title">President</h4>
-                                <p class="timeline-subtitle">Team Convolve, KL University</p>
-                                <p class="timeline-detail">
-                                    Directing a community of 100+ members. Organizing hackathons, workshops on AI/ML, and mentorship programs for juniors to bridge the academia-industry gap.
-                                </p>
-                            </div>
+        <!-- Leadership & Activities Section -->
+        <section class="leadership section" id="leadership">
+            <div class="container">
+                <h2 class="section-title">Leadership & Activities</h2>
+                <span class="section-subtitle">Community & Event Management</span>
 
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">2024 - 2025</div>
-                                <h4 class="timeline-title">Secretary</h4>
-                                <p class="timeline-subtitle">Team Convolve, KL University</p>
-                                <p class="timeline-detail">
-                                    Coordinated internal communication, event scheduling, and resource allocation. Managed collaboration with other student clubs and external sponsors.
-                                </p>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">2023 - 2024</div>
-                                <h4 class="timeline-title">Social Media Lead</h4>
-                                <p class="timeline-subtitle">Team Convolve, KL University</p>
-                                <p class="timeline-detail">
-                                    Handled digital branding and graphic design. Boosted community reach by 150% across LinkedIn and Instagram by designing tech posts and highlighting events.
-                                </p>
-                            </div>
+                <div class="leadership-container grid">
+                    <!-- Role 1 -->
+                    <div class="leadership-card card">
+                        <div class="lead-header">
+                            <span class="lead-date">2023 - 2025</span>
+                            <i class="fa-solid fa-users lead-card-icon"></i>
                         </div>
+                        <h3 class="lead-role-title">President & Secretary</h3>
+                        <h4 class="lead-org">Convolve, KL University</h4>
+                        <ul class="lead-bullets">
+                            <li>Organized technical workshops, hackathons, competitions, and student events.</li>
+                            <li>Managed events involving 200+ participants.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 2 -->
+                    <div class="leadership-card card">
+                        <div class="lead-header">
+                            <span class="lead-date">2022 - 2023</span>
+                            <i class="fa-solid fa-bullhorn lead-card-icon"></i>
+                        </div>
+                        <h3 class="lead-role-title">Social Media Manager</h3>
+                        <h4 class="lead-org">Convolve, KL University</h4>
+                        <ul class="lead-bullets">
+                            <li>Increased engagement through content creation and digital outreach.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 3 -->
+                    <div class="leadership-card card">
+                        <div class="lead-header">
+                            <span class="lead-date">2023 - 2024</span>
+                            <i class="fa-solid fa-address-card lead-card-icon"></i>
+                        </div>
+                        <h3 class="lead-role-title">HR & Secretary</h3>
+                        <h4 class="lead-org">Team Avinya</h4>
+                        <ul class="lead-bullets">
+                            <li>Managed recruitment, event logistics, and team coordination.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Credentials Section (Certifications & Achievements) -->
-        <section class="credentials section" id="credentials">
+        <!-- Certifications & Achievements Section -->
+        <section class="certifications section" id="certifications">
             <div class="container grid">
                 <!-- Certifications -->
                 <div class="credentials-box">
@@ -462,7 +527,7 @@
                                 <div class="cert-content">
                                     <h4 class="cert-title">AWS Certified Cloud Practitioner</h4>
                                     <p class="cert-issuer">Amazon Web Services</p>
-                                    <span class="cert-date">Issued: 2025</span>
+                                    <span class="cert-date">30 Apr 2024 – 30 Apr 2027</span>
                                 </div>
                             </div>
                             <div class="cert-btn-wrapper">
@@ -481,7 +546,7 @@
                                 <div class="cert-content">
                                     <h4 class="cert-title">MongoDB Associate Developer Python</h4>
                                     <p class="cert-issuer">MongoDB</p>
-                                    <span class="cert-date">Issued: 2025</span>
+                                    <span class="cert-date">30 Nov 2024</span>
                                 </div>
                             </div>
                             <div class="cert-btn-wrapper">
@@ -500,7 +565,7 @@
                                 <div class="cert-content">
                                     <h4 class="cert-title">Red Hat Certified Enterprise Application Developer</h4>
                                     <p class="cert-issuer">Red Hat</p>
-                                    <span class="cert-date">Issued: 2024</span>
+                                    <span class="cert-date">09 May 2024 – 09 May 2027</span>
                                 </div>
                             </div>
                             <div class="cert-btn-wrapper">
@@ -519,7 +584,7 @@
                                 <div class="cert-content">
                                     <h4 class="cert-title">Certified Advanced RPA Professional</h4>
                                     <p class="cert-issuer">Automation Anywhere</p>
-                                    <span class="cert-date">Issued: 2024</span>
+                                    <span class="cert-date">14 Oct 2024 – 14 Oct 2026</span>
                                 </div>
                             </div>
                             <div class="cert-btn-wrapper">
@@ -564,7 +629,7 @@
                             <i class="fa-solid fa-bullseye target-icon"></i>
                             <div class="ach-content">
                                 <h4 class="ach-title">President & Secretary – Convolve</h4>
-                                <p class="ach-desc">Led the planning and execution of multiple technical and non-technical events, workshops, coding competitions, and hackathons. Coordinated teams, managed event operations, and successfully organized activities involving over 200 participants.</p>
+                                <p class="ach-desc">Led multiple technical workshops, hackathons, coding competitions, and non-technical events involving 200+ participants.</p>
                             </div>
                         </div>
                     </div>
@@ -642,14 +707,16 @@
     <footer class="footer">
         <div class="footer-container container">
             <div class="footer-logo">Sudharshini Sree<span> Boga</span></div>
-            <p class="footer-tagline">Connecting hardware foundations with intelligent systems.</p>
+            <p class="footer-tagline">AI/ML Enthusiast | Data Science Student</p>
+            <div class="footer-contact-details">
+                <a href="mailto:sudharshinisree.boga@gmail.com" class="footer-contact-link" target="_blank"><i class="fa-regular fa-envelope"></i> sudharshinisree.boga@gmail.com</a>
+            </div>
             <ul class="footer-social-links">
-                <li><a href="https://www.linkedin.com/in/boga-sudharshinisree-076a53283/" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="https://github.com/Sree241004" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="mailto:sudharshinisree.boga@gmail.com" aria-label="Send Email"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/boga-sudharshinisree-076a53283/" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/Sree241004" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i> GitHub</a></li>
             </ul>
             <div class="footer-divider"></div>
-            <p class="footer-copyright">&copy; 2026 Sudharshini Sree Boga. All rights reserved.</p>
+            <p class="footer-copyright">&copy; 2026 All Rights Reserved</p>
         </div>
     </footer>
 
